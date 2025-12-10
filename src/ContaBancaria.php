@@ -91,4 +91,12 @@ class ContaBancaria
 
         return $this->saldo;
     }
+
+    public function sacar(float $valor)
+    {
+        if ($this->saldo <= $valor) {
+            throw new \Exception("Saldo insuficiente");
+        }
+        $this->saldo -= $valor;
+    }
 }
