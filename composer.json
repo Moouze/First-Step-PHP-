@@ -1,0 +1,17 @@
+{
+    "name": "dio/poo",
+    "description": "estudando POO com PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Assis",
+            "email": "lucas_dev@outlook.com.br"
+        }
+    ],
+    "require": {}
+}
