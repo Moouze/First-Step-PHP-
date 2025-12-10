@@ -1,0 +1,13 @@
+{
+    "name": "learn/php",
+    "description": "Estudando Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "learn\\Php\\": "src/"
+        }
+    },
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}

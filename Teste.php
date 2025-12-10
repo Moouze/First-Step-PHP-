@@ -1,6 +1,6 @@
 <?php
 //
-////$array = ["Ferrari", "Lambo", "GM"];
+//$array = ["Ferrari", "Lambo", "GM"];
 ////
 ////print_r($array[2]);
 //
