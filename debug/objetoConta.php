@@ -19,6 +19,18 @@ try {
     echo $e->getMessage();
 }
 
+echo "<br>";
+
+try {
+    $novoSaldo = $conta->sacar(90);
+    echo "saque realizado com sucesso! " . $novoSaldo;
+} catch (Exception $e) {
+    echo $e->getMessage();
+}
+
+echo "<br>";
+
+echo $conta->getSaldo();
 
 
 
